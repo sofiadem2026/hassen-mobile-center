@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcoe to Hassen Mobile Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+
+    <a href="#home" class="logo">
+        Hassen <span>Mobile</span>
+    </a>
+
+    <button
+        type="button"
+        class="menu-toggle"
+        id="menuToggle"
+        aria-expanded="false"
+        aria-controls="primaryNav"
+    >
+        ☰ Menu
+    </button>
+
+    <nav class="navbar" id="primaryNav">
+        <a href="#home">Home</a>
+        <a href="#services">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">PHONES & ACCESSORIES</p>
+
+                <h1>Your Next Favorite Device Starts Here.</h1>
+
+                <p class="hero-description">
+                    Discover mobile phones and accessories
+                    for your everyday needs.
+                </p>
+
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+
+            <div class="hero-card">
+                <div class="phone-icon">📱</div>
+                <h2>Find Your Perfect Phone</h2>
+                <p>Explore phones and useful accessories.</p>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="services" id="services">
+            <h2>What We Offer</h2>
+            <p class="section-description">
+                Explore our products.
+            </p>
+
+            <div class="service-container">
+                <article class="service-card">
+                    <img
+    class="product-image"
+    src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80"
+    alt="Mobile phone"
+>
+                    <h3>Mobile Phones</h3>
+                    <p>Discover devices for everyday use.</p>
+                </article>
+
+                <article class="service-card">
+                    <img
+    class="product-image"
+    src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+    alt="Audio accessories"
+>
+                    <h3>Accessories</h3>
+                    <p>Find useful accessories for your phone.</p>
+                </article>
+
+                <article class="service-card">
+                    <div class="product-icon">🔌</div>
+                    <h3>Chargers & Cables</h3>
+                    <p>Explore charging essentials.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- About and Contact -->
+        <section class="about" id="about">
+            <div>
+                <h2>Visit Our Shop</h2>
+                <p>
+                    We offer mobile phones and accessories
+                    to meet your everyday needs.
+                    Visit us and explore our products.
+                </p>
+            </div>
+
+            <div class="contact-box" id="contact">
+                
+<form
+    id="contactForm"
+    class="contact-form"
+    action="https://api.web3forms.com/submit"
+    method="POST"
+>
+<input
+    type="hidden"
+    name="access_key"
+    value="44c8b775-"
+>
+
+<input
+    type="hidden"
+    name="subject"
+    value="New enquiry - Hassen Mobile Center"
+>
+
+<input
+    type="hidden"
+    name="from_name"
+    value="Hassen Mobile Center"
+>
+
+
+<input
+    type="checkbox"
+    name="botcheck"
+    style="display: none;"
+    tabindex="-1"
+>
+
+    <h3>Send Us a Message</h3>
+
+    <label for="customerName">Your Name</label>
+    <input
+        type="text"
+        id="customerName"
+        name="name"
+        placeholder="Enter your name"
+        required
+    >
+
+    <label for="customerEmail">Email Address</label>
+    <input
+        type="email"
+        id="customerEmail"
+        name="email"
+        placeholder="Enter your email"
+        required
+    >
+
+    <label for="customerMessage">Your Message</label>
+    <textarea
+        id="customerMessage"
+        name="message"
+        rows="4"
+        placeholder="How can we help you?"
+        required
+    ></textarea>
+
+    <button type="submit" class="btn">
+        Submit Message
+    </button>
+
+    <p id="formFeedback" role="status" aria-live="polite"></p>
+
+</form>
+
+                <h2>Contact Us</h2>
+                <p>📍 Addis Zemen, in front of the bus station</p>
+                <p>📞 <a href="tel:0918255422">0918255422</a></p>
+                <a class="btn" href="tel:0918255422">Call Our Shop</a>
+                <button id="welcomeButton" class="btn" type="button">
+    Show Welcome Message
+</button>
+
+<p id="welcomeMessage"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Hassen Mobile Center. All rights reserved.</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
